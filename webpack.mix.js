@@ -19,7 +19,7 @@ const mix = require('laravel-mix');
 mix.scripts([
 
     'node_modules/jquery/dist/jquery.min.js', 
-    'node_modules/popper.js/dist/popper.min.js',
+    'node_modules/popper.js/dist/umd/popper.min.js',
     'node_modules/bootstrap/dist/js/bootstrap.min.js',
     'node_modules/alertifyjs/build/alertify.js',
 ], 'public/js/app.js').version();
@@ -27,8 +27,8 @@ mix.scripts([
 
 /*mix.js([
     'node_modules/popper.js/dist/umd/popper.min.js',
-], 'public/js/app.js');
-*/
+], 'public/js/app.js');*/
+
 mix.styles([
     'node_modules/bootstrap/dist/css/bootstrap.min.css',
     'node_modules/alertifyjs/build/css/alertify.min.css',
