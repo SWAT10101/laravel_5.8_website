@@ -27,12 +27,12 @@ mix.scripts([
 
 /*mix.js([
     'node_modules/popper.js/dist/umd/popper.min.js',
-    'public/css/sb-admin.min.css',
+    
 ], 'public/js/app.js');*/
 
 mix.styles([
     'node_modules/bootstrap/dist/css/bootstrap.min.css',
-    
-    'public/css/all.min.css',
     'node_modules/alertifyjs/build/css/alertify.min.css',
+    'public/css/sb-admin.min.css',
+    'public/css/all.min.css',
 ], 'public/css/app.css').version();
