@@ -7,6 +7,7 @@
 <!--<link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">-->
 <!-- Style https -->
 <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet" type="text/css">
+<link href="{{ secure_asset('css/all.min.css') }}" rel="stylesheet" type="text/css">
 
 
 <!-- sb-admin.mib.css & all.min.css added in webpack mix file  -->
