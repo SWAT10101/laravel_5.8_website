@@ -34,4 +34,4 @@ mix.styles([
     'node_modules/alertifyjs/build/css/alertify.min.css',
     'public/css/sb-admin.min.css',
     'public/css/all.min.css',
-], 'public/css/app.css');
+], 'public/css/app.css').version();
