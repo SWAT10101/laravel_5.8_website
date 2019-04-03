@@ -1,7 +1,7 @@
 
 
 <!-- Style http -->
-<!--<link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">-->
+<link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
 
 <!-- Style https -->
 <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet" type="text/css">
