@@ -32,6 +32,6 @@ mix.scripts([
 mix.styles([
     'node_modules/bootstrap/dist/css/bootstrap.min.css',
     'node_modules/alertifyjs/build/css/alertify.min.css',
-    'public/css/sb-admin.min.css',
     'public/css/all.min.css',
+    'public/css/sb-admin.min.css',
 ], 'public/css/app.css');
