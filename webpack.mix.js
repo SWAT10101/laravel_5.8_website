@@ -15,24 +15,25 @@ const mix = require('laravel-mix');
 //.sass('resources/sass/app.scss', 'public/css');
 
 
-
 mix.scripts([
 
     'node_modules/jquery/dist/jquery.min.js', 
     'node_modules/popper.js/dist/umd/popper.min.js',
     'node_modules/bootstrap/dist/js/bootstrap.min.js',
     'node_modules/alertifyjs/build/alertify.js',
-], 'public/js/app.js').version();
+], 'public/js/app.js');
 
 
 /*mix.js([
     'node_modules/popper.js/dist/umd/popper.min.js',
-    
+    styles
 ], 'public/js/app.js');*/
 
-mix.styles([
+mix.sass('resources/sass/app.scss', 'public/css');
+
+/*mix.styles([
     'node_modules/bootstrap/dist/css/bootstrap.min.css',
     'node_modules/alertifyjs/build/css/alertify.min.css',
     'public/css/sb-admin.min.css',
-    'public/css/all.min.css',
-], 'public/css/app.css').version();
+    'node_modules/@fortawesome/fontawesome-free/css/all.css',
+], 'public/css/app.css');*/
