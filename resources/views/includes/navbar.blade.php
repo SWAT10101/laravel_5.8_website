@@ -4,9 +4,11 @@
 
     <a class="navbar-brand" href="/home">Nader</a>
 
+    @if (Auth::check())
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
         <span class="navbar-toggler-icon"></span>
     </button>
+    @endif
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
@@ -36,9 +38,6 @@
         <!-- Right Side Of Navbar -->
         <ul class="navbar-nav ml-auto">
 
-
-
-
             @if (Auth::check())
             <li class="nav-item">
                 <a class="nav-link" href="#">{{ Auth::user()->name }}</a>
@@ -54,8 +53,6 @@
                 </form>
             </li>          
             @endif
-
-
 
         </ul>
     </div>
