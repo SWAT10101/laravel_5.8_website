@@ -14,7 +14,8 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
             <h6 class="dropdown-header">Operations:</h6>
-            <a class="dropdown-item" href="{{ route('register') }}">Add User </a>
+            <a class="dropdown-item" href="{{ route('register') }}">Add Admin </a>
+            <a class="dropdown-item" href="{{ route('addtec') }}">Add Technician </a>
             <a class="dropdown-item" href="add_coustomer.html">Add Customer</a>
             <a class="dropdown-item" href="#">Add Device Type</a>
         </div>
