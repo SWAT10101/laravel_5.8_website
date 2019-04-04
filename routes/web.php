@@ -19,7 +19,7 @@ Route::get('/', 'Auth\LoginController@showLoginForm');
 Auth::routes(['verify' => true]);
     
 
-    Route::get('/home', 'HomeController@index')->middleware('auth')->name('home');
+    Route::get('/home', 'HomeController@index')->middleware('auth', 'cors')->name('home');
 
   
     
