@@ -23,8 +23,7 @@ Auth::routes(['verify' => true]);
 
   
     
-    Route::get('/addtec', 'CreateUserController@test')->middleware('verified')->name('addtec'); 
-    
+    Route::get('/addtec', 'CreateUserController@test')->middleware('verified')->name('addtec');
 
 
 
