@@ -19,7 +19,7 @@ class LoginController extends Controller
     */
 
     use AuthenticatesUsers {
-    redirectPath as laravelRedirectPath;
+    redirectPath as laravelRedirectPath; // add class with other name to overwite method redirectPath() ot flashmessage
     }
 
 

@@ -16,7 +16,7 @@
 
 <script>
 
-   var mass = "<dic class='text-white'>{{session('welcome') Auth::user()->name}}</div>";
+   var mass = "<dic class='text-white'>{{ session('welcome') }} {{ Auth::user()->name }}</div>";
     $( document ).ready(function() {
         alertify.notify(mass, 'success', 10); 
     });
