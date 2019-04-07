@@ -10,3 +10,16 @@
     
 </script>
 @endif
+
+
+@if (session('welcome'))
+
+<script>
+
+   var mass = "<dic class='text-white'>{{session('welcome')}}</div>";
+    $( document ).ready(function() {
+        alertify.notify(mass, 'success', 10); 
+    });
+    
+</script>
+@endif

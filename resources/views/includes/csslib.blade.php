@@ -10,10 +10,6 @@
 <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet" type="text/css">
 
 
-<!-- sb-admin.mib.css & all.min.css added in webpack mix file  -->
-
-
-
 
 <style>
 /* Make the image fully responsive */
