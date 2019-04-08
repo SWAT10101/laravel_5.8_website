@@ -11,9 +11,8 @@
 </script>
 @endif
 
-
+<!-- message after login -->
 @if (session('welcome'))
-
 <script>
 
    var mass = "<dic class='text-white'>{{ session('welcome') }} {{ Auth::user()->name }}</div>";

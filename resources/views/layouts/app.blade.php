@@ -37,6 +37,9 @@
         @yield('email')
         @yield('reset')
         @yield('verify')
+        @yield('addtec')
+        @yield('addcust')
+        @yield('adddevice')
     </div>
 
 

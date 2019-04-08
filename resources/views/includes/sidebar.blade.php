@@ -16,8 +16,8 @@
             <h6 class="dropdown-header">Operations:</h6>
             <a class="dropdown-item" href="{{ route('register') }}">Add Admin </a>
             <a class="dropdown-item" href="{{ route('addtec') }}">Add Technician </a>
-            <a class="dropdown-item" href="add_coustomer.html">Add Customer</a>
-            <a class="dropdown-item" href="#">Add Device Type</a>
+            <a class="dropdown-item" href="{{ route('addcust') }}">Add Customer</a>
+            <a class="dropdown-item" href="{{ route('adddvi') }}">Add Device Type</a>
         </div>
     </li>
     <li class="nav-item">

@@ -22,7 +22,9 @@ Auth::routes(['verify' => true]);
 
   
     
-    Route::get('/addtec', 'CreateUserController@test')->middleware('verified')->name('addtec');
+    Route::get('/addTec', 'Addtec@viewAddTec')->middleware('verified')->name('addtec');
+    Route::get('/addCust', 'AddCustomer@viewAddCust')->middleware('verified')->name('addcust');
+    Route::get('/addDev', 'AddDevcies@viewAddDvic')->middleware('verified')->name('adddvi');
 
 
 
