@@ -23,6 +23,8 @@ Auth::routes(['verify' => true]);
   
     
     Route::get('/addTec', 'Addtec@viewAddTec')->middleware('verified')->name('addtec');
+    Route::post('/addTec', 'Addtec@createTec')->middleware('verified');
+
     Route::get('/addCust', 'AddCustomer@viewAddCust')->middleware('verified')->name('addcust');
     Route::get('/addDev', 'AddDevcies@viewAddDvic')->middleware('verified')->name('adddvi');
 
